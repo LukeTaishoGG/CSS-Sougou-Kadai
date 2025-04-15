@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.profile-card {
+  height: auto;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction:  column;
+  background-color: #fff;
+  text-align: center;
+
+}
+
+.face-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("https://i.pinimg.com/originals/1a/aa/b9/1aaab98b112d0fc8ff2156c247a8ffdc.gif");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.h1-name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.p-jobs {
+  font-size: 16px;
+  color: #666;
+}
+
+.h2-movie {
+  height: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+table {
+  height: 100%;
+  border-collapse: collapse;
+  background-color:  #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #0078D4;
+  color: white;
+}
+
+th,td {
+  padding: 12px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
