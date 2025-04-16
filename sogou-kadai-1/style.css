@@ -1,32 +1,31 @@
 body {
+  height: 100%;
+  width: 100%;
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
 }
 
 .profile-card {
+  box-sizing: border-box;
   height: auto;
   width: 300px;
-  border-radius: 10px;
   padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction:  column;
   background-color: #fff;
-  text-align: center;
-
+  align-items: center;
 }
 
-.face-img {
+img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-image: url("https://i.pinimg.com/originals/1a/aa/b9/1aaab98b112d0fc8ff2156c247a8ffdc.gif");
-  background-size: cover;
-  margin: 0 auto;
 }
 
 .h1-name {
@@ -39,14 +38,21 @@ body {
   color: #666;
 }
 
-.h2-movie {
+.jouhou-table {
   height: 80%;
   max-width: 800px;
   text-align: center;
 }
 
+.h2-movie {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
 table {
   height: 100%;
+  width: 100%;
+  max-width: 800px;
   border-collapse: collapse;
   background-color:  #fff;
   border-radius: 10px;
@@ -64,6 +70,6 @@ th,td {
   border-bottom: 1px solid #ddd;
 }
 
-tbody tr:hover {
+.movies tr:hover {
   background-color: #f2f2f2;
 }
