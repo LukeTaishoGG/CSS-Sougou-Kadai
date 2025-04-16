@@ -1,0 +1,76 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card {
+  box-sizing: border-box;
+  height: auto;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction:  column;
+  background-color: #fff;
+  align-items: center;
+}
+
+.img-face {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.h1-name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.p-jobs {
+  font-size: 16px;
+  color: #666;
+}
+
+.jouhou-table {
+  height: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.h2-movie {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table-movies {
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background-color:  #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.thead-movies {
+  background-color: #0078D4;
+  color: white;
+}
+
+.jouhou-table th,
+.jouhou-table td {
+  padding: 12px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.movies tr:hover {
+  background-color: #f2f2f2;
+}
