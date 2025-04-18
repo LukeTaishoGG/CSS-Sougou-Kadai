@@ -4,12 +4,12 @@
   color: #333;
 }
 
-/* まだimg貼れてない */
 .header-top {
   padding: 50px 20px;
   text-align: center;
   background-image: url("https://freesozai.jp/sozai/nation_flag/ntf_401/ntf_401.png");
   background-position: center;
+  /* 国旗の色とフォントカラーが被ってしまうため222％にしました。 */
   background-size: 222%;
   color: #fff
 }
