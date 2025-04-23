@@ -152,7 +152,7 @@
     box-sizing: border-box;
     height: auto;
     width: auto;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -296,7 +296,7 @@
     box-sizing: border-box;
     height: auto;
     width: auto;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
