@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* PC 601px以上 */
+@media screen and (min-width: 601px) {
+  .header-style {
+    height: 279px;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+
+  .site-title {
+    line-height: 1px;
+  }
+
+  .site-title img {
+    max-width: 100%
+  }
+
+  /* ・・・・・・・・・・・・・ここはメニュー */
+  .nav-ul {
+    display: flex;
+    padding: 10px 0;
+  }
+
+  .nav-ul li{
+    font-size: 0.9rem;
+    margin-left: 30px;
+  }
+
+  .nav-ul a {
+  text-decoration: none;
+  }
+
+  .nav-ul a {
+    color: #24292e;
+  }
+
+  .insta-icon {
+    width: 20px;
+  }
+
+  .main-style {
+    display: block;
+  }
+
+  .main-style {
+    display: block;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・これはTOP画像 */
+  .img-london {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    margin: 0 0 80px 0;
+    padding: 0;
+    object-fit: cover;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・wrapper */
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・About */
+  .h2-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  .p-text {
+    padding: 0 4%;
+  }
+
+  /* ・・・・・・・・・・・・・・・・Xxxxx Ashley の部分 */
+  #about li:first-child {
+    margin-bottom: 30px;
+  }
+
+  .ul-about {
+    
+    padding: 0 4%;
+    margin-bottom: 30px;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・・・・・・Works */
+  .ul-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .ul-img li {
+    width: 31%;
+    margin-bottom: 23px;
+  }
+
+  .ul-img img {
+    width: 100%;
+  }
+  /* ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・News */
+  #news dl {
+    border-top: solid 1px #c8c8c8;
+    border-bottom: solid 1px #c8c8c8;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .news-item {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #c8c8c8;
+  }
+
+  .news-item:last-child {
+    border-bottom: none;
+  }
+
+  .news-item dt {
+    width: 160px;
+    margin: 0;
+  }
+
+  .news-item dd {
+    flex: 1;
+    margin: 0;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・・・ここからcontact */
+
+  .form-contact {
+    max-width: 720px;
+    margin: 0 auto 100px auto;
+  }
+
+  .form-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .form-row dt {
+    width: 100px;
+    margin-right: 20px;
+  }
+
+  .form-row dd {
+    width: 100%;
+  }
+
+  .form-contact textarea {
+    width: 100%;
+    padding: 10px 14px;
+    height: 180px;
+    font-size: 1rem;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 0;
+    resize: vertical;
+  }
+
+  .contact-text {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #c8c8c8;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+  #contact .button input {
+    width: 173px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  /* ・・・・・・・・・・・・・・・・・・・・・・ここはフッター */
+  .fotter-style {
+    background-color: #24292e;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+    text-align: center;
+  }
+}
+
+/* スマホ 600px以下 */
+@media screen and (max-width: 600px) {
+  .header-style {
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 4%;
+    align-items: center;
+  }
+
+  .site-title {
+    margin-top: 20px;
+  }
+
+  .site-title img {
+    max-width: 100%
+  }
+
+  /*・・・・・・・・・・・・・・・・・・・・ SPこれはメニュー */
+  .nav-ul {
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-ul li{
+    font-size: 0.8rem;
+    margin-left: 20px;
+  }
+
+  .nav-ul a {
+  text-decoration: none;
+  color: #24292e;
+  }
+
+  .insta-icon {
+    width: 20px;
+    max-width: 100%;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・・SPこれはTOP画像 */
+  .img-london {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    margin: 0 0 80px 0;
+    padding: 0;
+    object-fit: cover;
+  }
+
+  .wrapper {
+    margin-bottom: 70px;
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+  }
+
+  .h2-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  /* ・・・・・・・・・・・・・・・・・・・・・SP About */
+  .ul-about {
+    padding: 0 4%;
+  }
+  /* ・・・・・・・・・・・・・・・・Xxxxx Ashley の部分 */
+  #about li:first-child {
+    margin-bottom: 30px;
+  }
+  
+  .p-text {
+    padding: 0 4%;
+  }
+
+  .ul-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・・・・・・・・SP Works */
+  #works img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  #news dl {
+    border-top: solid 1px #c8c8c8;
+    border-bottom: solid 1px #c8c8c8;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .news-item {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #c8c8c8;
+  }
+
+  .news-item:last-child {
+    border-bottom: none;
+  }
+
+  .news-item dt {
+    width: 160px;
+    margin: 0;
+  }
+
+  .news-item dd {
+    flex: 1;
+    margin: 0;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・・・・・・・SP Contact */
+  .form-contact {
+    max-width: 720px;
+    margin: 0 auto 100px auto;
+  }
+
+  .form-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .form-row dt {
+    width: 100px;
+    margin-right: 20px;
+  }
+
+  .form-row dd {
+    width: 100%;
+  }
+
+  .form-contact textarea {
+    width: 100%;
+    padding: 10px 14px;
+    height: 180px;
+    font-size: 1rem;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 0;
+    resize: vertical;
+  }
+
+  .contact-text {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #c8c8c8;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+  #contact .button input {
+    width: 173px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  /* ・・・・・・・・・・・・・・・・・・・・・・・・・SP フッター */
+  .fotter-style {
+    background-color: #24292e;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+    text-align: center;
+  }
+}
